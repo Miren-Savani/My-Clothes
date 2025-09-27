@@ -1,0 +1,32 @@
+PACKAGES : -----------------------------------------------------
+npm i 
+cors - allow frontend IP to access backend
+dotenv - use involvement variable in project
+express - create API
+jsonwebtoken - enable use authentication and user can login
+mongoose - database connectivity
+multer - store images in cloudnary storage
+nodemon - restart backendd whenever we make changes in code 
+razorpay - setup online payment integration 
+stripe - setup online payment integration 
+validator - check that data comming for user is valid or not
+cloudinary - use to store data in cloud
+bcrypt - encrypt user password and use in our database
+
+
+NAVIGATIONS : ---------------------------------------------------
+
+/api/user - userRoute => /register - registerUser
+                         /login - loginUser
+                         /admin - adminLogin
+
+/api/product - productRoute => /add - authUser, addProduct
+                               /remove - authUser, removeProduct
+                               /single - authUser, singleProduct
+                               /list - authUser, listProducts
+
+/api/cart - cartRoute => /get - authUser, getUserCart
+                        /add - authUser, addToCart
+                        /update - authUser, updateCart
+
+

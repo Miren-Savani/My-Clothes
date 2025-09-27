@@ -1,0 +1,31 @@
+COMPONENTS :
+main - App - Navbar 
+           - Searchbar (if require)
+           - Routes
+           - Footer
+                    
+Home - Hero
+     - LatestCollection - Title 
+                        - ProductItem
+     - BestSeller   - Title 
+                    - ProductItem
+     - OurPolicy
+     - NewsletterBox
+     - Footer
+
+Collection 
+
+Product - RelatedProducts
+
+Cart - CartTotal
+
+----------------------------------------------
+PAGES :
+Home - Navbar   - Profile(logo) - Login
+                - Cart - PlaceOrder - Orders
+
+Collection - Product
+
+About
+
+Contact

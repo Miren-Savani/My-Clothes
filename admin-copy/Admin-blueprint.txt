@@ -1,0 +1,12 @@
+PACKAGES : ---------------------------------------------------------
+npm install axios react-router-dom react-toastify
+
+axios - api calls
+react-router-dom - routing
+react-toastify - toast notifications
+
+
+PATHS : -------------------------------------------------------
+
+APP --- Login --(yes)-- 
+              --(no)-- Login
